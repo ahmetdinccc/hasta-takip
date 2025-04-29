@@ -3,7 +3,6 @@ import 'package:patient_tracking_application/models/hastalar.dart';
 
 class TcSecmeDropdown extends StatefulWidget {
   const TcSecmeDropdown({super.key});
-
   @override
   State<TcSecmeDropdown> createState() => _TcSecmeDropdownState();
 }
@@ -30,10 +29,10 @@ class _TcSecmeDropdownState extends State<TcSecmeDropdown> {
           value: 'Seçiniz',
           child: Text('Seçiniz'),
         ),
-        ...hastalar.map((String deger) {
+        ...hastalar.map((String hastaIsimleri) {
           return DropdownMenuItem<String>(
-            value: deger,
-            child: Text(deger),
+            value: hastaIsimleri,
+            child: Text(hastaIsimleri),
           );
         }),
       ],

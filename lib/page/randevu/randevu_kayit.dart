@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:patient_tracking_application/models/opreasyon.dart';
 import 'package:patient_tracking_application/page/randevu/drop_down_tc.dart';
 import 'package:patient_tracking_application/widget/button1.dart';
 import 'package:patient_tracking_application/page/randevu/date_picker_randevu.dart';
